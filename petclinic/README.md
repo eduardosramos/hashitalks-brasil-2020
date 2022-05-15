@@ -23,7 +23,7 @@ Esse tipo de _deploy_ tem a vantagem de ser simples. Porém também tem diversos
 * Difícil de implementar processo de _rollback_ em caso de falhas 
 * Não possui isolamento de recuros com outros processos
 
-Essese são exatamente os tipos de problemas que um orquestrador resolve. Então vamos atualizar esse processo de _deploy_ para usar o Nomad. Como o Nomad é capaz de rodar arquivos JAR de forma nativa, a aplicação não precisa ser modificada.
+Esses são exatamente os tipos de problemas que um orquestrador resolve. Então vamos atualizar esse processo de _deploy_ para usar o Nomad. Como o Nomad é capaz de rodar arquivos JAR de forma nativa, a aplicação não precisa ser modificada.
 
 ## Instalando o Nomad
 
